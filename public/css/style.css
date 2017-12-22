@@ -1,0 +1,13 @@
+.logo {
+    max-width:280px;
+}
+.titluPagina {
+    font-size:1.8rem;
+}
+@media (max-width: 767px) {
+    .meniuPrincipal {
+        margin-top: 0.5rem;
+        justify-content: center;
+        width: 100%
+    }
+}
