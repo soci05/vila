@@ -1,8 +1,34 @@
 .logo {
     max-width:280px;
 }
+.logoContainer  a {
+    display:inline-block;
+}
 .titluPagina {
     font-size:1.8rem;
+    border-bottom: 1px solid #b9b9b9;
+    padding-bottom: 0.5rem;
+}
+footer {
+    font-size:0.8rem;
+}
+.meniuPrincipal .nav-link {
+    position:relative;
+}
+.meniuPrincipal .nav-link:hover:after {
+    content:"";
+    position:absolute;
+    bottom:-0.3rem;
+    width:70%;
+    left:0;
+    right:0;
+    margin:0 auto;
+    height:2px;
+    background:#e2c395;
+    left:0;
+}
+.fa {
+    color:#25557d;
 }
 @media (max-width: 767px) {
     .meniuPrincipal {
